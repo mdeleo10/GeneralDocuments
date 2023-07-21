@@ -68,3 +68,12 @@ Host 192.168.65.253
 Note: Tested on Mac and Ubuntu Linux
  
 --------
+
+If you need to keep sessions alive, put this in the beginning of you "config" file
+
+```
+# https://linux-tips.com/t/how-to-keep-ssh-sessions-alive/255
+Host *
+  ServerAliveInterval 6s0
+  ServerAliveCountMax 3
+```
