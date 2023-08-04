@@ -6,7 +6,7 @@ Is there IPv6 support in Azure? **Yes**. Mostly Infrastructure as a Service, but
 There's **no charge** to use Public IPv6 Addresses or Public IPv6 Prefixes. Associated resources and bandwidth are charged at the same rates as IPv4.
 
 ## Is the Azure Portal Dual Stacked?
-Yes, the https://portal.azure.com site is dual-stacked, https://portal.azure.us is not. But the Azure Bash cli nor the Azure Powershell cli seem to support IPv6. Azure Powershell to be confirmed.
+Yes, the https://portal.azure.com site is dual-stacked, https://portal.azure.us is not. But the Azure Bash cli nor the Azure Powershell cli (ifconfig shows only ipv4 address) seem to support IPv6. Azure Powershell to be confirmed.
 
 ## Using Azure as Code:
 * Using the infrastructure as code tools are dependant on the platform you are using in the first place. You need to support IPv6 and allow IPv6 connectivity out.
