@@ -77,7 +77,7 @@ No
 | Standard Internal Load Balancer | Yes | https://learn.microsoft.com/en-us/azure/load-balancer/ipv6-dual-stack-standard-internal-load-balancer-powershell |
 | Standard Public Load Balancer | Yes | https://learn.microsoft.com/en-us/azure/load-balancer/virtual-network-ipv4-ipv6-dual-stack-standard-load-balancer-powershell |
 | Application Gateway v2 | No | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/ipv6-overview | Application Gateway v2 doesn't currently support IPv6. It can operate in a dual stack virtual network using only IPv4, but the gateway subnet must be IPv4-only. Application Gateway v1 doesn't support dual stack virtual networks. |
-| FrontEnd | No | |
+| Front Door | Yes | https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview | Support in Commercial and US Gov |
 | Bastion | No | | |
 | DDOS | Yes | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/ipv6-overview |
 | IPv6 Troubleshooting and Diagnostics are available with load balancer metrics/alerting and Network Watcher features such as packet capture, NSG flow logs, connection troubleshooting and connection monitoring. | Yes | |
