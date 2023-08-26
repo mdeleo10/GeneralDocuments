@@ -69,7 +69,7 @@ No
 | NAT Gateway | No | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/configure-public-ip-nat-gateway | Public IPv6 address and public IPv6 prefixes aren't supported on NAT gateways at this time. However, NAT gateways can be deployed on a dual stack virtual network subnet with IPv6 and IPv4 prefixes. | 
 | Public IP | Yes | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses | support DNS Name Label | 
 | NIC  | Yes, Dual Stack (must have IPv4) | |
-| Azure Firewall | No/Yes under Preview in Commercial*(pending documentation availability) | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/ipv6-overview | Azure Firewall doesn't currently support IPv6. It can operate in a dual stack VNet using only IPv4, but the firewall subnet must be IPv4-only. |
+| Azure Firewall | No| https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/ipv6-overview | Azure Firewall doesn't currently support IPv6. It can operate in a dual stack VNet using only IPv4, but the firewall subnet must be IPv4-only. |
 | Private Endpoints | No | |
 | Private Links | No | |
 | VPN Gateway | No | |
