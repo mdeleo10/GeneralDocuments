@@ -48,12 +48,11 @@ Host 192.168.10.253
   KexAlgorithms +diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
   Ciphers aes128-cbc
 
-## Santa Fe IPv4 and IPv6
 Host 192.168.65.1
   KexAlgorithms +diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
   Ciphers aes128-cbc
 
-Host 2806:240:5C0:33::1
+Host 2006:240:5C0:35::1
   KexAlgorithms +diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
   Ciphers aes128-cbc
 
