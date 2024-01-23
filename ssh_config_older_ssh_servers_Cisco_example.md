@@ -76,3 +76,5 @@ Host *
   ServerAliveInterval 6s0
   ServerAliveCountMax 3
 ```
+
+See also https://linuxize.com/post/using-the-ssh-config-file/ for more considerations
