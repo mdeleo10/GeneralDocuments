@@ -76,8 +76,8 @@ No
 | ExpressRoute Gateway | Yes, Dual Stack | |
 | Standard Internal Load Balancer | Yes | https://learn.microsoft.com/en-us/azure/load-balancer/ipv6-dual-stack-standard-internal-load-balancer-powershell |
 | Standard Public Load Balancer | Yes | https://learn.microsoft.com/en-us/azure/load-balancer/virtual-network-ipv4-ipv6-dual-stack-standard-load-balancer-powershell |
-| Application Gateway v2 | Yes - Commercial | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/ipv6-overview | Support dual-stack or can serve single stack. Application Gateway v2 can dual-stack to users while inside backend is IPv4 only in IaaS, PaaS or any reachable IPv4 address |
-| Front Door | Yes | https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview | Support in Commercial and US Gov. Support dual-stack or can serve single stack. Application Gateway v2 can dual-stack to users while inside backend is IPv4 only in IaaS, PaaS or any reachable IPv4 address |
+| Application Gateway v2 | Yes | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/ipv6-overview | Support dual-stack or can serve single stack. Application Gateway v2 can dual-stack to users while inside backend is IPv4 only in IaaS, PaaS or any reachable IPv4 address |
+| Front Door | Yes | https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview | Support in Commercial and US Gov. Support dual-stack or can serve single stack. Front Doorycan dual-stack to users while inside backend is IPv4 only in IaaS, PaaS or any reachable IPv4 address |
 | Bastion | No | | |
 | DDOS | Yes | https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/ipv6-overview |
 | IPv6 Troubleshooting and Diagnostics are available with load balancer metrics/alerting and Network Watcher features such as packet capture, NSG flow logs, connection troubleshooting and connection monitoring. | Yes | |
